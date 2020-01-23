@@ -34,10 +34,17 @@ An extensive list of all tech related resources curated by the batchlings.
 
 ### <a name="devops-category"></a>[DevOps](#dev-ops)
 
-* [Google Cloud](#googlecloud)
-* [AWS lambda](#aws-lambda)
-* [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
-* [Microsoft Azure Functions](#ms-azure-fn)
+- Easy and fast
+	* [Heroku](#heroku)
+	* [Render](#render)
+	* [Binder](#binder)
+
+- standard
+	* [Google Cloud](#googlecloud)
+	* [AWS lambda](#aws-lambda)
+	* [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
+	* [Microsoft Azure Functions](#ms-azure-fn)
+
 
 ### <a name="devenv-category"></a>[Development Environment](#dev-envs)
 
@@ -118,13 +125,34 @@ An extensive list of all tech related resources curated by the batchlings.
 
 ## <a name="dev-ops"></a>DevOps <sup>[Back ⇈](#devops-category)</sup>
 
-* <a name="devops-googlecloud"></a>Google Cloud
+If you are not sure where to deploy your app, usually people suggest Binder, Heroku or Render. You can test deploying and serving your app without having to enter any credit card details, and easy to test with very little prior experience of deployments.
+
+
+### Easy and Fast
+
+* <a name="heroku"></a>Heroku (DBass)
+	- [official step-by-step manual](https://devcenter.heroku.com/articles/getting-started-with-python), free!
+* <a name="render"></a>Render (Web-hosting)
+	- helps auto deploy from Git, emrging start-up
+	- [render docs](https://render.com/docs)
+* <a name="binder"></a>Binder
+	* one of jupyter project, [binder project](https://jupyter.org/binder)
+
+### Standard
+
+* <a name="googlecloud"></a>Google Cloud
   - [Host a website on Google App Engine](https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website)
   - [Continuous Development](https://deploybot.com/blog/continuous-development)
   - [Continuous Delivery on Google Cloud Platform](https://cloud.google.com/solutions/continuous-delivery/)
 * <a name="aws-lambda"></a>AWS Lambda
+	- Requirments: AWS CLI, python3, Docker, AWS SAM CLI
+	- [deploy with SAM CLI](https://izifortune.com/serverless-website-sam-aws/)
 * <a name="aws-elastic-beanstalk"></a>AWS Elastic Beanstalk
+	- [simple steps to deploy](https://medium.com/better-programming/deploy-node-application-on-aws-elastic-beanstalk-acb34998211)
 * <a name="ms-azure-fn"></a>Microsoft Azure Functions
+
+Recommend: [Best free compute and other resources for startups?](https://news.ycombinator.com/item?id=20225118), Hacker News.
+
 
 ## <a name="dev-envs"></a>Development Environments <sup>[Back ⇈](#devenv-category)</sup>
 
